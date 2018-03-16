@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G18013" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Landing View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="landingViewController" id="BYZ-38-t0r" customClass="LandingViewController" customModule="Simpler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landing_background" translatesAutoresizingMaskIntoConstraints="NO" id="lt8-LD-xL2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.84999999999999998" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="9O3-tm-ALw">
+                                <rect key="frame" x="121.5" y="90" width="131" height="131.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9O3-tm-ALw" secondAttribute="height" multiplier="1:1" id="aj6-q1-mJC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSa-TZ-HNQ">
+                                <rect key="frame" x="24" y="582" width="327" height="50"/>
+                                <state key="normal" image="btn-sign_up"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhc-X8-e3k">
+                                <rect key="frame" x="24" y="524" width="327" height="50"/>
+                                <state key="normal" image="btn-login"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME TO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWO-kN-4m5">
+                                <rect key="frame" x="24" y="259.5" width="115" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Simpler" translatesAutoresizingMaskIntoConstraints="NO" id="yjS-C6-1ht">
+                                <rect key="frame" x="24" y="283" width="190" height="47"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now all important calls and contacts are always under control" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hor-Rx-JWc">
+                                <rect key="frame" x="24" y="346" width="296" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="qMN-LF-g2N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hor-Rx-JWc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="1Fz-5c-r2o"/>
+                            <constraint firstItem="9O3-tm-ALw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3t3-sJ-Sq8"/>
+                            <constraint firstItem="lt8-LD-xL2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4A9-1s-gBh"/>
+                            <constraint firstItem="lhc-X8-e3k" firstAttribute="leading" secondItem="GSa-TZ-HNQ" secondAttribute="leading" id="6NM-sv-x9n"/>
+                            <constraint firstItem="9O3-tm-ALw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.35" id="6Sb-DI-lXx"/>
+                            <constraint firstItem="lt8-LD-xL2" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="IpX-du-Szb"/>
+                            <constraint firstItem="GSa-TZ-HNQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="Jll-lF-dP0"/>
+                            <constraint firstItem="lt8-LD-xL2" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="bP2-JK-ahA"/>
+                            <constraint firstItem="GSa-TZ-HNQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bt4-IM-fbf"/>
+                            <constraint firstItem="9O3-tm-ALw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="dIW-Hd-OAD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GSa-TZ-HNQ" secondAttribute="trailing" constant="8" id="frG-U6-6BS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hor-Rx-JWc" secondAttribute="trailing" constant="39" id="jbI-Gl-Aps"/>
+                            <constraint firstItem="aWO-kN-4m5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="lAA-LI-6Rb"/>
+                            <constraint firstItem="aWO-kN-4m5" firstAttribute="top" secondItem="9O3-tm-ALw" secondAttribute="bottom" constant="38" id="mBB-Tn-8qh"/>
+                            <constraint firstItem="lt8-LD-xL2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ndG-bH-xyR"/>
+                            <constraint firstItem="GSa-TZ-HNQ" firstAttribute="top" secondItem="lhc-X8-e3k" secondAttribute="bottom" constant="8" id="nkL-h5-91F"/>
+                            <constraint firstItem="hor-Rx-JWc" firstAttribute="top" secondItem="yjS-C6-1ht" secondAttribute="bottom" constant="16" id="qCb-VT-PzG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GSa-TZ-HNQ" secondAttribute="bottom" constant="35" id="t09-w4-8QF"/>
+                            <constraint firstItem="yjS-C6-1ht" firstAttribute="leading" secondItem="aWO-kN-4m5" secondAttribute="leading" id="wN6-Bl-G5f"/>
+                            <constraint firstItem="yjS-C6-1ht" firstAttribute="top" secondItem="aWO-kN-4m5" secondAttribute="bottom" constant="0.5" id="z2X-09-wLb"/>
+                            <constraint firstItem="lhc-X8-e3k" firstAttribute="trailing" secondItem="GSa-TZ-HNQ" secondAttribute="trailing" id="zlj-WK-Xg8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cqp-yx-6AL">
+            <objects>
+                <viewController id="MtO-ZX-IkA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5pD-90-NxE"/>
+                        <viewControllerLayoutGuide type="bottom" id="dNy-B9-hFr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jmH-ek-WcA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gXL-O3-fIL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gXL-O3-fIL" firstAttribute="centerY" secondItem="jmH-ek-WcA" secondAttribute="centerY" id="7Nl-dc-6gh"/>
+                            <constraint firstItem="gXL-O3-fIL" firstAttribute="centerX" secondItem="jmH-ek-WcA" secondAttribute="centerX" id="LWE-WW-tLt"/>
+                            <constraint firstItem="gXL-O3-fIL" firstAttribute="width" secondItem="jmH-ek-WcA" secondAttribute="width" id="uqn-nS-as7"/>
+                            <constraint firstItem="gXL-O3-fIL" firstAttribute="height" secondItem="jmH-ek-WcA" secondAttribute="height" id="zqg-tU-vqr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="piN-ld-Z1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="123"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Simpler" width="190" height="47"/>
+        <image name="btn-login" width="327" height="50"/>
+        <image name="btn-sign_up" width="327" height="50"/>
+        <image name="landing_background" width="375" height="812"/>
+        <image name="logo" width="140" height="140"/>
+    </resources>
+</document>

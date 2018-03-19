@@ -10,5 +10,6 @@ target 'Simpler' do
   pod 'SwiftDate', '4.3'
   pod 'SDWebImage'
   pod 'IQKeyboardManagerSwift'
+  pod 'ACFloatingTextfield-Swift', '~> 1.7'
 
 end

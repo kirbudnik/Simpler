@@ -12,6 +12,11 @@
 		803DB759205C43F30047549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803DB758205C43F30047549D /* Assets.xcassets */; };
 		803DB75C205C43F30047549D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DB75A205C43F30047549D /* LaunchScreen.storyboard */; };
 		803DB764205C51660047549D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB763205C51660047549D /* LandingViewController.swift */; };
+		807331572060240300AD1169 /* RegisterInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807331562060240300AD1169 /* RegisterInfoController.swift */; };
+		807331592060241900AD1169 /* RegisterContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807331582060241900AD1169 /* RegisterContactController.swift */; };
+		8073315B2060242900AD1169 /* VerifyPhoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073315A2060242900AD1169 /* VerifyPhoneController.swift */; };
+		8073315D2060243600AD1169 /* VerifyEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073315C2060243600AD1169 /* VerifyEmailController.swift */; };
+		80F79C0E205C67230044D107 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F79C0D205C67230044D107 /* LoginController.swift */; };
 		D5703AFBFC0899430E2D75FC /* Pods_Simpler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B248D1028E5322A602895C /* Pods_Simpler.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,11 @@
 		803DB75B205C43F30047549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		803DB75D205C43F30047549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		803DB763205C51660047549D /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		807331562060240300AD1169 /* RegisterInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInfoController.swift; sourceTree = "<group>"; };
+		807331582060241900AD1169 /* RegisterContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterContactController.swift; sourceTree = "<group>"; };
+		8073315A2060242900AD1169 /* VerifyPhoneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhoneController.swift; sourceTree = "<group>"; };
+		8073315C2060243600AD1169 /* VerifyEmailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyEmailController.swift; sourceTree = "<group>"; };
+		80F79C0D205C67230044D107 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		B427D9612AD7AB7E6F1C7C96 /* Pods-Simpler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simpler/Pods-Simpler.debug.xcconfig"; sourceTree = "<group>"; };
 		B5B248D1028E5322A602895C /* Pods_Simpler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simpler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BBBA32748443C7E767FBCF /* Pods-Simpler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simpler/Pods-Simpler.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,14 +88,27 @@
 		803DB750205C43F30047549D /* Simpler */ = {
 			isa = PBXGroup;
 			children = (
+				807331552060235A00AD1169 /* Register */,
 				803DB751205C43F30047549D /* AppDelegate.swift */,
 				803DB755205C43F30047549D /* Main.storyboard */,
 				803DB758205C43F30047549D /* Assets.xcassets */,
 				803DB75A205C43F30047549D /* LaunchScreen.storyboard */,
 				803DB75D205C43F30047549D /* Info.plist */,
 				803DB763205C51660047549D /* LandingViewController.swift */,
+				80F79C0D205C67230044D107 /* LoginController.swift */,
 			);
 			path = Simpler;
+			sourceTree = "<group>";
+		};
+		807331552060235A00AD1169 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				807331562060240300AD1169 /* RegisterInfoController.swift */,
+				807331582060241900AD1169 /* RegisterContactController.swift */,
+				8073315A2060242900AD1169 /* VerifyPhoneController.swift */,
+				8073315C2060243600AD1169 /* VerifyEmailController.swift */,
+			);
+			name = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +223,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Simpler/Pods-Simpler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACFloatingTextfield-Swift/ACFloatingTextfield_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -207,6 +231,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACFloatingTextfield_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -224,7 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807331572060240300AD1169 /* RegisterInfoController.swift in Sources */,
 				803DB764205C51660047549D /* LandingViewController.swift in Sources */,
+				80F79C0E205C67230044D107 /* LoginController.swift in Sources */,
+				8073315B2060242900AD1169 /* VerifyPhoneController.swift in Sources */,
+				8073315D2060243600AD1169 /* VerifyEmailController.swift in Sources */,
+				807331592060241900AD1169 /* RegisterContactController.swift in Sources */,
 				803DB752205C43F30047549D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +419,7 @@
 				803DB762205C43F30047549D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

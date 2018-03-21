@@ -1,5 +1,5 @@
 //
-//  VerifyEmailController.swift
+//  FavoriteController.swift
 //  Simpler
 //
 //  Created by PSIHPOK on 3/20/18.
@@ -8,18 +8,13 @@
 
 import UIKit
 
-class VerifyEmailController: UIViewController {
+class FavoriteController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-    @IBAction func onConfirm(_ sender: Any) {
-        ServiceManager.sharedInstance.createTabController(controller: self)
-    }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -27,8 +22,14 @@ class VerifyEmailController: UIViewController {
     }
     
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
     }
-    
+    */
+
 }

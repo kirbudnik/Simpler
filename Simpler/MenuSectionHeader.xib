@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuSectionHeader" id="KpS-8R-njj" customClass="MenuSectionHeader" customModule="Simpler" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KpS-8R-njj" id="LSU-vn-UrQ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-home" translatesAutoresizingMaskIntoConstraints="NO" id="nTW-io-wof">
+                        <rect key="frame" x="8" y="15.5" width="13" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="nTW-io-wof" secondAttribute="height" multiplier="1:1" id="g6r-Db-EZd"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2S-Y5-FzW">
+                        <rect key="frame" x="29" y="10" width="43" height="23.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-arrow-right" translatesAutoresizingMaskIntoConstraints="NO" id="gb8-mR-ZXy">
+                        <rect key="frame" x="354" y="15.5" width="13" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="gb8-mR-ZXy" secondAttribute="height" multiplier="1:1" id="5V6-jt-2gY"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-dU-aV9">
+                        <rect key="frame" x="356.5" y="11" width="8" height="22"/>
+                        <state key="normal" image="ic-arrow-right"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="nTW-io-wof" firstAttribute="centerY" secondItem="LSU-vn-UrQ" secondAttribute="centerY" id="C5E-mb-Hni"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="nTW-io-wof" secondAttribute="leading" id="JlM-9g-W4q"/>
+                    <constraint firstItem="r2S-Y5-FzW" firstAttribute="centerY" secondItem="LSU-vn-UrQ" secondAttribute="centerY" id="L0g-b1-qAT"/>
+                    <constraint firstItem="ACl-dU-aV9" firstAttribute="centerY" secondItem="gb8-mR-ZXy" secondAttribute="centerY" id="SJb-o5-HEV"/>
+                    <constraint firstItem="ACl-dU-aV9" firstAttribute="centerX" secondItem="gb8-mR-ZXy" secondAttribute="centerX" id="njQ-Wq-fKT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="gb8-mR-ZXy" secondAttribute="trailing" id="tbN-jm-3aF"/>
+                    <constraint firstItem="r2S-Y5-FzW" firstAttribute="leading" secondItem="nTW-io-wof" secondAttribute="trailing" constant="8" id="tuL-by-36f"/>
+                    <constraint firstItem="gb8-mR-ZXy" firstAttribute="centerY" secondItem="LSU-vn-UrQ" secondAttribute="centerY" id="xpq-kG-ssH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="expandArraw" destination="gb8-mR-ZXy" id="tdD-E6-DVT"/>
+                <outlet property="expandButton" destination="ACl-dU-aV9" id="I89-vi-ML8"/>
+                <outlet property="headerImageView" destination="nTW-io-wof" id="XaZ-1l-Y7T"/>
+                <outlet property="headerTitleLabel" destination="r2S-Y5-FzW" id="Vzk-nr-PHV"/>
+            </connections>
+            <point key="canvasLocation" x="51" y="179"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic-arrow-right" width="8" height="13"/>
+        <image name="ic-home" width="13" height="11"/>
+    </resources>
+</document>

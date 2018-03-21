@@ -11,5 +11,7 @@ target 'Simpler' do
   pod 'SDWebImage'
   pod 'IQKeyboardManagerSwift'
   pod 'ACFloatingTextfield-Swift', '~> 1.7'
+  pod 'EasyNotificationBadge', '1.1.1'
+  pod 'SlideMenuControllerSwift'
 
 end

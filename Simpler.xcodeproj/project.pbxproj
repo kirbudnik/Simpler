@@ -12,6 +12,24 @@
 		803DB759205C43F30047549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803DB758205C43F30047549D /* Assets.xcassets */; };
 		803DB75C205C43F30047549D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DB75A205C43F30047549D /* LaunchScreen.storyboard */; };
 		803DB764205C51660047549D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB763205C51660047549D /* LandingViewController.swift */; };
+		80658BB82061084C0076A81A /* FavoriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BB72061084C0076A81A /* FavoriteController.swift */; };
+		80658BBA206108580076A81A /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BB9206108580076A81A /* EventController.swift */; };
+		80658BBC206108650076A81A /* AppointmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BBB206108650076A81A /* AppointmentController.swift */; };
+		80658BBE206108720076A81A /* ClientsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BBD206108720076A81A /* ClientsController.swift */; };
+		80658BC02061087F0076A81A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BBF2061087F0076A81A /* MainController.swift */; };
+		80658BC32061099F0076A81A /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BC22061099F0076A81A /* ServiceManager.swift */; };
+		80658BD02061A4760076A81A /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BCA2061A4760076A81A /* ProgressView.swift */; };
+		80658BD62061A7FE0076A81A /* AZTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BD12061A7FE0076A81A /* AZTabBarButton.swift */; };
+		80658BD72061A7FE0076A81A /* AZTabBarButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BD22061A7FE0076A81A /* AZTabBarButtonDelegate.swift */; };
+		80658BD82061A7FE0076A81A /* AZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BD32061A7FE0076A81A /* AZTabBarController.swift */; };
+		80658BD92061A7FE0076A81A /* AZTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80658BD42061A7FE0076A81A /* AZTabBarController.xib */; };
+		80658BDA2061A7FE0076A81A /* AZTabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BD52061A7FE0076A81A /* AZTabBarDelegate.swift */; };
+		80658BDC2061F4400076A81A /* MJBadgeBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BDB2061F4400076A81A /* MJBadgeBarButton.swift */; };
+		80658BDF2062048A0076A81A /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BDE2062048A0076A81A /* MenuController.swift */; };
+		80658BE1206204C00076A81A /* MenuProsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BE0206204C00076A81A /* MenuProsCell.swift */; };
+		80658BE3206204CD0076A81A /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BE2206204CD0076A81A /* MenuCell.swift */; };
+		80658BE5206204EE0076A81A /* MenuSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80658BE4206204EE0076A81A /* MenuSectionHeader.swift */; };
+		80658BE720620BBB0076A81A /* MenuSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80658BE620620BBB0076A81A /* MenuSectionHeader.xib */; };
 		807331572060240300AD1169 /* RegisterInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807331562060240300AD1169 /* RegisterInfoController.swift */; };
 		807331592060241900AD1169 /* RegisterContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807331582060241900AD1169 /* RegisterContactController.swift */; };
 		8073315B2060242900AD1169 /* VerifyPhoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073315A2060242900AD1169 /* VerifyPhoneController.swift */; };
@@ -28,6 +46,25 @@
 		803DB75B205C43F30047549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		803DB75D205C43F30047549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		803DB763205C51660047549D /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		80658BB1206106FE0076A81A /* Simpler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simpler-Bridging-Header.h"; sourceTree = "<group>"; };
+		80658BB72061084C0076A81A /* FavoriteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteController.swift; sourceTree = "<group>"; };
+		80658BB9206108580076A81A /* EventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
+		80658BBB206108650076A81A /* AppointmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentController.swift; sourceTree = "<group>"; };
+		80658BBD206108720076A81A /* ClientsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientsController.swift; sourceTree = "<group>"; };
+		80658BBF2061087F0076A81A /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		80658BC22061099F0076A81A /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		80658BCA2061A4760076A81A /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		80658BD12061A7FE0076A81A /* AZTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarButton.swift; sourceTree = "<group>"; };
+		80658BD22061A7FE0076A81A /* AZTabBarButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarButtonDelegate.swift; sourceTree = "<group>"; };
+		80658BD32061A7FE0076A81A /* AZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarController.swift; sourceTree = "<group>"; };
+		80658BD42061A7FE0076A81A /* AZTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AZTabBarController.xib; sourceTree = "<group>"; };
+		80658BD52061A7FE0076A81A /* AZTabBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarDelegate.swift; sourceTree = "<group>"; };
+		80658BDB2061F4400076A81A /* MJBadgeBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJBadgeBarButton.swift; sourceTree = "<group>"; };
+		80658BDE2062048A0076A81A /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		80658BE0206204C00076A81A /* MenuProsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuProsCell.swift; sourceTree = "<group>"; };
+		80658BE2206204CD0076A81A /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		80658BE4206204EE0076A81A /* MenuSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSectionHeader.swift; sourceTree = "<group>"; };
+		80658BE620620BBB0076A81A /* MenuSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuSectionHeader.xib; sourceTree = "<group>"; };
 		807331562060240300AD1169 /* RegisterInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInfoController.swift; sourceTree = "<group>"; };
 		807331582060241900AD1169 /* RegisterContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterContactController.swift; sourceTree = "<group>"; };
 		8073315A2060242900AD1169 /* VerifyPhoneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhoneController.swift; sourceTree = "<group>"; };
@@ -88,6 +125,14 @@
 		803DB750205C43F30047549D /* Simpler */ = {
 			isa = PBXGroup;
 			children = (
+				80658BDD206204750076A81A /* Menu */,
+				80658BC42061A4760076A81A /* CustomView */,
+				80658BC1206109850076A81A /* ServiceManager */,
+				80658BB62061082D0076A81A /* Favorite */,
+				80658BB5206108260076A81A /* Event */,
+				80658BB42061081E0076A81A /* Appointment */,
+				80658BB3206108160076A81A /* Clients */,
+				80658BB2206108090076A81A /* Main */,
 				807331552060235A00AD1169 /* Register */,
 				803DB751205C43F30047549D /* AppDelegate.swift */,
 				803DB755205C43F30047549D /* Main.storyboard */,
@@ -96,8 +141,83 @@
 				803DB75D205C43F30047549D /* Info.plist */,
 				803DB763205C51660047549D /* LandingViewController.swift */,
 				80F79C0D205C67230044D107 /* LoginController.swift */,
+				80658BB1206106FE0076A81A /* Simpler-Bridging-Header.h */,
 			);
 			path = Simpler;
+			sourceTree = "<group>";
+		};
+		80658BB2206108090076A81A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				80658BBF2061087F0076A81A /* MainController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		80658BB3206108160076A81A /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				80658BBD206108720076A81A /* ClientsController.swift */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		80658BB42061081E0076A81A /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				80658BBB206108650076A81A /* AppointmentController.swift */,
+			);
+			name = Appointment;
+			sourceTree = "<group>";
+		};
+		80658BB5206108260076A81A /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				80658BB9206108580076A81A /* EventController.swift */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		80658BB62061082D0076A81A /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				80658BB72061084C0076A81A /* FavoriteController.swift */,
+			);
+			name = Favorite;
+			sourceTree = "<group>";
+		};
+		80658BC1206109850076A81A /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				80658BC22061099F0076A81A /* ServiceManager.swift */,
+			);
+			name = ServiceManager;
+			sourceTree = "<group>";
+		};
+		80658BC42061A4760076A81A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				80658BDB2061F4400076A81A /* MJBadgeBarButton.swift */,
+				80658BD12061A7FE0076A81A /* AZTabBarButton.swift */,
+				80658BD22061A7FE0076A81A /* AZTabBarButtonDelegate.swift */,
+				80658BD32061A7FE0076A81A /* AZTabBarController.swift */,
+				80658BD42061A7FE0076A81A /* AZTabBarController.xib */,
+				80658BD52061A7FE0076A81A /* AZTabBarDelegate.swift */,
+				80658BCA2061A4760076A81A /* ProgressView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		80658BDD206204750076A81A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				80658BDE2062048A0076A81A /* MenuController.swift */,
+				80658BE0206204C00076A81A /* MenuProsCell.swift */,
+				80658BE2206204CD0076A81A /* MenuCell.swift */,
+				80658BE4206204EE0076A81A /* MenuSectionHeader.swift */,
+				80658BE620620BBB0076A81A /* MenuSectionHeader.xib */,
+			);
+			name = Menu;
 			sourceTree = "<group>";
 		};
 		807331552060235A00AD1169 /* Register */ = {
@@ -176,6 +296,8 @@
 			files = (
 				803DB75C205C43F30047549D /* LaunchScreen.storyboard in Resources */,
 				803DB759205C43F30047549D /* Assets.xcassets in Resources */,
+				80658BD92061A7FE0076A81A /* AZTabBarController.xib in Resources */,
+				80658BE720620BBB0076A81A /* MenuSectionHeader.xib in Resources */,
 				803DB757205C43F30047549D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,17 +346,21 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Simpler/Pods-Simpler-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ACFloatingTextfield-Swift/ACFloatingTextfield_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyNotificationBadge/EasyNotificationBadge.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACFloatingTextfield_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyNotificationBadge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,13 +375,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80658BDF2062048A0076A81A /* MenuController.swift in Sources */,
+				80658BD82061A7FE0076A81A /* AZTabBarController.swift in Sources */,
 				807331572060240300AD1169 /* RegisterInfoController.swift in Sources */,
+				80658BDC2061F4400076A81A /* MJBadgeBarButton.swift in Sources */,
 				803DB764205C51660047549D /* LandingViewController.swift in Sources */,
+				80658BE1206204C00076A81A /* MenuProsCell.swift in Sources */,
+				80658BBA206108580076A81A /* EventController.swift in Sources */,
+				80658BD62061A7FE0076A81A /* AZTabBarButton.swift in Sources */,
 				80F79C0E205C67230044D107 /* LoginController.swift in Sources */,
+				80658BD72061A7FE0076A81A /* AZTabBarButtonDelegate.swift in Sources */,
+				80658BC32061099F0076A81A /* ServiceManager.swift in Sources */,
+				80658BC02061087F0076A81A /* MainController.swift in Sources */,
 				8073315B2060242900AD1169 /* VerifyPhoneController.swift in Sources */,
 				8073315D2060243600AD1169 /* VerifyEmailController.swift in Sources */,
+				80658BDA2061A7FE0076A81A /* AZTabBarDelegate.swift in Sources */,
 				807331592060241900AD1169 /* RegisterContactController.swift in Sources */,
+				80658BE3206204CD0076A81A /* MenuCell.swift in Sources */,
+				80658BBE206108720076A81A /* ClientsController.swift in Sources */,
+				80658BE5206204EE0076A81A /* MenuSectionHeader.swift in Sources */,
+				80658BBC206108650076A81A /* AppointmentController.swift in Sources */,
 				803DB752205C43F30047549D /* AppDelegate.swift in Sources */,
+				80658BB82061084C0076A81A /* FavoriteController.swift in Sources */,
+				80658BD02061A4760076A81A /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +520,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26MCB9E5SC;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = Simpler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.psihpok.Simpler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Simpler/Simpler-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -392,10 +539,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26MCB9E5SC;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = Simpler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.psihpok.Simpler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Simpler/Simpler-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

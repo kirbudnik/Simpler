@@ -15,6 +15,11 @@ class ClientsController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.setNavigationBarItem()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -15,6 +15,12 @@ class MainController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.navigationController!.navigationBar.setBackgroundImage(#imageLiteral(resourceName: "nav_bg"), for: .default)
+        self.setNavigationBarItem()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
